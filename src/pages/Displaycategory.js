@@ -1,24 +1,26 @@
 // import React, { useState } from 'react'
 // import { getCat } from '../services/allApis'
-// import { useEffect } from 'react';
+// import { useEffect } from 'react'
 
 // function Displaycategory() {
-//   const [cat,setcat]=useState([])
 
-// const catview=async(id)=>{
+// const [viewcat,setviewcat]=useState([])
 
-//  const  result= await  getCat(id)
-//    setcat(result.data);
-//    catview()
+// const getview=async(id)=>{
 
+//   const result=await getCat(id)
+//   console.log(result);
 // }
-// useEffect(()=>{
 
-//   catview()
+// console.log(setviewcat);
+// useEffect(()=>{
+//   getview()
+
 // },[])
 
+
 //   return (
-//     <div><h1>Display</h1></div>
+//     <div><h1>Displaycategory</h1></div>
 //   )
 // }
 
